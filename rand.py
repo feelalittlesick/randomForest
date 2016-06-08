@@ -1,7 +1,5 @@
 print('Importing libraries...')
-import numpy as np
 import pandas as pd
-from sklearn import cross_validation as cv
 from sklearn.cross_validation import KFold
 from sklearn.metrics import confusion_matrix
 from sklearn.ensemble import RandomForestClassifier
